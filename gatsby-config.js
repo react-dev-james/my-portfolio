@@ -32,5 +32,5 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: '/gatsby-simplefolio',
+  pathPrefix: '/portfolio',
 };
