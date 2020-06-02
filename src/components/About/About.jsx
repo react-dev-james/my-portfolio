@@ -2,12 +2,12 @@ import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
-import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
+import coverImg from '../../images/coverimage3.jpg';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraph4, resume } = about;
+  const { paragraphOne, paragraphTwo, paragraphThree, paragraph4, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -38,7 +38,7 @@ const About = () => {
                     boxShadow: '0px 4px 20px rgba(0,0,0,0.25)',
                   }}
                 >
-                  <AboutImg alt="profile picture" filename={img} />
+                  <img src={coverImg} width={350} alt="cover" />
                 </div>
               </Fade>
             </Row>

@@ -1,4 +1,8 @@
 import uuidv1 from 'uuid/v1';
+import upworkImage from '../images/upwork_gallery.jpg';
+import deskProImg from '../images/deskpro.png';
+import elliotImg from '../images/elliot.png';
+import lurnImg from '../images/lurn.png';
 
 // HEAD DATA
 export const headData = {
@@ -31,7 +35,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: '1',
-    img: 'upwork_gallery.jpg',
+    img: upworkImage,
     title: 'Upwok Experience',
     info: 'I have 2 years of experience on upwork.',
     info2: 'I completed 27 jobs, earned around $200k and worked 3999hrs on remote jobs.',
@@ -40,7 +44,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'deskpro.png',
+    img: deskProImg,
     title: 'Helpdesk Software at Deskpro',
     info:
       'I was actively involved at development of Helpdesk Software Platform at Deskpro which founded 2002.',
@@ -50,7 +54,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'elliot.png',
+    img: elliotImg,
     title: 'Next generation E-Commerce system',
     info: 'Involved at development of next generation e-commerce system at Elliot, Inc.',
     info2: 'Used React.js, TypeScript, GraphQL and Formik, Context API, React Hooks, UI Kit.',
@@ -59,7 +63,7 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'lurn.png',
+    img: lurnImg,
     title: 'Entreprenure Online Platform',
     info: 'Involved at development of Entreprenure Online Platform at Lurn.',
     info2: 'Used PHP, Laravel 5.6, Vue.js.',
