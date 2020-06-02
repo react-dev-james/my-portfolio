@@ -39,7 +39,7 @@ export const projectsData = [
     title: 'Upwork Experience',
     info: 'I have 2 years of experience on upwork.',
     info2: 'I completed 27 jobs, earned around $200k and worked 3999hrs on remote jobs.',
-    url: 'https://ibb.co/XVv4BW9',
+    url: 'https://ibb.co/1GqxqVj',
     repo: '', // if no repo, the button will not show up
   },
   {
