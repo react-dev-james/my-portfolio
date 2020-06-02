@@ -90,8 +90,8 @@ const About = () => {
                   <br />
                   &nbsp;&nbsp;&nbsp;• REST, GraphQL, Apollo
                   <br />
-                  &nbsp;&nbsp;&nbsp;• Vue.js,VueX, Nuxt.js <br />
-                  &nbsp;&nbsp;&nbsp;• Ant Design, Semantic, UI Kit, Styled Component, Material,
+                  &nbsp;&nbsp;&nbsp;• Vue.js, VueX, Nuxt.js <br />
+                  &nbsp;&nbsp;&nbsp;• Ant Design, Semantic UI, UI Kit, Styled Component, Material,
                   Bootstrap
                 </p>
                 <p className="about-wrapper__info-text">

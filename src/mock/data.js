@@ -36,7 +36,7 @@ export const projectsData = [
   {
     id: '1',
     img: upworkImage,
-    title: 'Upwok Experience',
+    title: 'Upwork Experience',
     info: 'I have 2 years of experience on upwork.',
     info2: 'I completed 27 jobs, earned around $200k and worked 3999hrs on remote jobs.',
     url: 'https://ibb.co/XVv4BW9',
@@ -64,8 +64,8 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: lurnImg,
-    title: 'Entreprenure Online Platform',
-    info: 'Involved at development of Entreprenure Online Platform at Lurn.',
+    title: 'Entreprenuer Online Platform',
+    info: 'Involved at development of Entreprenuer Online Platform at Lurn.',
     info2: 'Used PHP, Laravel 5.6, Vue.js.',
     url: 'https://lurn.com/',
     repo: '', // if no repo, the button will not show up
