@@ -51,6 +51,12 @@ const About = () => {
                   <p className="about-wrapper__info-text">
                     <b>Country: Poland</b>
                   </p>
+                  <p className="about-wrapper__info-text">
+                    <b>Email: </b>yegoryanushkevich@gmail.com
+                  </p>
+                  <p className="about-wrapper__info-text">
+                    <b>Skype: </b>live:yegoryanushkevich
+                  </p>
                   <br />
                   <p className="about-wrapper__info-text">
                     <b>Hourly rate: $40/hr</b>
