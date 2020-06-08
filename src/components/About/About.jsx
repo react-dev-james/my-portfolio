@@ -88,7 +88,8 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   &nbsp;&nbsp;&nbsp;• ES6 + JavaScript, TypeScript, HTML5, CSS3, SCSS, jQuery
                   <br />
-                  &nbsp;&nbsp;&nbsp;• React.js, Redux-Thunk, Redux-Saga, React Hooks, Context API
+                  &nbsp;&nbsp;&nbsp;• React.js, Redux-Thunk, Redux-Saga, React Hooks, Context API,
+                  React Storybook
                   <br />
                   &nbsp;&nbsp;&nbsp;• NextJS, GatsbyJS
                   <br />
