@@ -2,6 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import PortfolioContext from '../../context/context';
+import bgImage from '../../images/background.jpg';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -21,7 +22,7 @@ const Header = () => {
   }, []);
 
   return (
-    <section id="hero" className="jumbotron">
+    <section id="hero" className="jumbotron" style={{ backgroundImage: `url(${bgImage})` }}>
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
@@ -39,6 +40,13 @@ const Header = () => {
           </p>
         </Fade>
       </Container>
+      <div className="container1">
+        <a href="#about" style={{ cursor: 'pointer' }}>
+          <div className="chevron" />
+          <div className="chevron" />
+          <div className="chevron" />
+        </a>
+      </div>
     </section>
   );
 };
