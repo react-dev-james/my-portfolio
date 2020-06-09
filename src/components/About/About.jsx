@@ -86,7 +86,7 @@ const About = () => {
                   <b>{paragraph4 || ''}</b>
                 </p>
                 <p className="about-wrapper__info-text">
-                  &nbsp;&nbsp;&nbsp;• ES6 + JavaScript, TypeScript, HTML5, CSS3, SCSS, jQuery
+                  &nbsp;&nbsp;&nbsp;• ES5 + JavaScript, TypeScript, HTML5, CSS3, SCSS, jQuery
                   <br />
                   &nbsp;&nbsp;&nbsp;• React.js, Redux-Thunk, Redux-Saga, React Hooks, Context API,
                   React Storybook
