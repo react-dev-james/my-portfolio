@@ -28,20 +28,21 @@ const About = () => {
         <Title title="About Me" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
-            <Row className="left-side">
+            <Row>
               <Fade bottom duration={1000} delay={600} distance="30px">
                 <div
                   className="about-wrapper__image"
                   style={{
                     alignItems: 'baseline',
                     justifyContent: 'end',
+                    boxShadow: '0px 4px 20px rgba(0,0,0,0.25)',
                   }}
                 >
-                  <img src={coverImg} width={350} maxWidth="100%" alt="cover" />
+                  <img src={coverImg} width={350} alt="cover" />
                 </div>
               </Fade>
             </Row>
-            <Row className="left-side">
+            <Row>
               <Fade bottom duration={1000} delay={600} distance="30px">
                 <div className="about-wrapper__info">
                   <br />
@@ -63,9 +64,6 @@ const About = () => {
                   <p className="about-wrapper__info-text">
                     <b>Available: More than 40hrs/week</b>
                   </p>
-                  <br />
-                  <br />
-                  <br />
                 </div>
               </Fade>
             </Row>

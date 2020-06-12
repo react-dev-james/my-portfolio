@@ -28,7 +28,7 @@ export const aboutData = {
     'Specialized in web application development such as E-Commerce, Enterprise Application, SaaS Platform, SPA, Health Care System, CRM and Learning Management System.',
   paragraphThree: 'Love working with great team with Agile/Scrum methodology.',
   paragraph4: ' - Front-End',
-  resume: 'https://drive.google.com/file/d/11IkbEtd25oH6MyOEa09R7bsn1iwY6qf7/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1olrccn_MDTrxXdvVjzdsebaRCvN5d-Ro/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
