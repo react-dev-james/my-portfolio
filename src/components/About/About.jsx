@@ -127,7 +127,7 @@ const About = () => {
                   I am ready to work with you and help your business grow.
                   <br />
                   <br />
-                  Regards
+                  Regards.
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
