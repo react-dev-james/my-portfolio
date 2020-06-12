@@ -49,7 +49,7 @@ const About = () => {
                   <br />
                   <br />
                   <p className="about-wrapper__info-text">
-                    <b>Country: </b>Poland
+                    <b>Country: </b>Polandasdasd
                   </p>
                   <p className="about-wrapper__info-text">
                     <b>Email: </b>yegoryanushkevich@gmail.com
