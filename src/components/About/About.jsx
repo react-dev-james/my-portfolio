@@ -49,7 +49,7 @@ const About = () => {
                   <br />
                   <br />
                   <p className="about-wrapper__info-text">
-                    <b>Country: </b>Polandasdasd
+                    <b>Country: </b>Poland
                   </p>
                   <p className="about-wrapper__info-text">
                     <b>Email: </b>yegoryanushkevich@gmail.com
@@ -127,7 +127,7 @@ const About = () => {
                   I am ready to work with you and help your business grow.
                   <br />
                   <br />
-                  Regards.
+                  Regards
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
