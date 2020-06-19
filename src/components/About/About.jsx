@@ -41,34 +41,6 @@ const About = () => {
                 </div>
               </Fade>
             </Row>
-            <Row className="left-side">
-              <Fade bottom duration={1000} delay={600} distance="30px">
-                <div className="about-wrapper__info">
-                  <br />
-                  <br />
-                  <br />
-                  <p className="about-wrapper__info-text">
-                    <b>Country: </b>Poland
-                  </p>
-                  <p className="about-wrapper__info-text">
-                    <b>Email: </b>yegoryanushkevich@gmail.com
-                  </p>
-                  <p className="about-wrapper__info-text">
-                    <b>Skype: </b>live:yegoryanushkevich
-                  </p>
-                  <br />
-                  <p className="about-wrapper__info-text">
-                    <b>Hourly rate: $40/hr</b>
-                  </p>
-                  <p className="about-wrapper__info-text">
-                    <b>Available: More than 40hrs/week</b>
-                  </p>
-                  <br />
-                  <br />
-                  <br />
-                </div>
-              </Fade>
-            </Row>
           </Col>
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">

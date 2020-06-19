@@ -6,7 +6,7 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+  const { cta, email } = contact;
 
   return (
     <section id="contact">
@@ -20,10 +20,13 @@ const Contact = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
+              className="cta-btn cta-btn-contact"
               href={email ? `mailto:${email}` : ''}
             >
-              {btn || "Let's Talk"}
+              <i className="fa fa-envelope fa-inverse" />
+            </a>
+            <a href="skype:live:yegoryanushkevich?chat" className="cta-btn cta-btn-contact">
+              <i className="fa fa-skype fa-inverse" />
             </a>
           </div>
         </Fade>
