@@ -3,6 +3,7 @@ import upworkImage from '../images/upwork_gallery.jpg';
 import deskProImg from '../images/deskpro.png';
 import elliotImg from '../images/elliot.png';
 import lurnImg from '../images/lurn.png';
+import healthcorumImg from '../images/healthcorum.png';
 
 // HEAD DATA
 export const headData = {
@@ -28,7 +29,7 @@ export const aboutData = {
     'Specialized in web application development such as E-Commerce, Enterprise Application, SaaS Platform, SPA, Health Care System, CRM and Learning Management System.',
   paragraphThree: 'Love working with great team with Agile/Scrum methodology.',
   paragraph4: ' - Front-End',
-  resume: 'https://drive.google.com/file/d/1QVzyT1dzuR2xNqEs4WX5DILlpc9o5-R2/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1olrccn_MDTrxXdvVjzdsebaRCvN5d-Ro/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -70,6 +71,15 @@ export const projectsData = [
     url: 'https://lurn.com/',
     repo: '', // if no repo, the button will not show up
   },
+  {
+    id: uuidv1(),
+    img: healthcorumImg,
+    title: 'Health Care System',
+    info: 'Involved at development of Health Care Platform at HealthCorum.',
+    info2: 'Used Python / Django, Angular, MySQL and D3.js.',
+    url: 'http://healthcorum.com/',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
@@ -97,11 +107,11 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/yegor92',
     },
-    {
-      id: uuidv1(),
-      name: 'laptop',
-      url: 'https://www.hiremotely.com/profile/Yegor-Y-full-stack-mobile-web-developer',
-    },
+    // {
+    //   id: uuidv1(),
+    //   name: 'laptop',
+    //   url: 'https://www.hiremotely.com/profile/Yegor-Y-full-stack-mobile-web-developer',
+    // },
     {
       id: uuidv1(),
       name: 'user',
