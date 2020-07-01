@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
+import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import bgImage from '../../images/background.jpg';
 
@@ -41,11 +42,19 @@ const Header = () => {
         </Fade>
       </Container>
       <div className="container1">
-        <a href="#about" style={{ cursor: 'pointer' }}>
+        <Link
+          activeClass="active"
+          to="about"
+          spy
+          smooth
+          offset={50}
+          duration={100}
+          style={{ cursor: 'pointer' }}
+        >
           <div className="chevron" />
           <div className="chevron" />
           <div className="chevron" />
-        </a>
+        </Link>
       </div>
     </section>
   );

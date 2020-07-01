@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 
 const Footer = () => {
@@ -9,9 +10,17 @@ const Footer = () => {
   return (
     <footer className="footer navbar-static-bottom">
       <Container>
-        <a href="#top" aria-label="Back To Top" className="back-to-top">
+        <Link
+          activeClass="active"
+          to="hero"
+          spy
+          smooth
+          offset={50}
+          duration={100}
+          style={{ cursor: 'pointer' }}
+        >
           <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
-        </a>
+        </Link>
         <div className="social-links">
           {networks &&
             networks.map(network => {
