@@ -7,7 +7,7 @@ import coverImg from '../../images/coverimage3.jpg';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { paragraphOne, paragraphTwo, paragraphThree, paragraph4, resume } = about;
+  const { paragraphOne, paragraphTwo, paragraphThree, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -37,7 +37,7 @@ const About = () => {
                     justifyContent: 'end',
                   }}
                 >
-                  <img src={coverImg} width={350} maxWidth="100%" alt="cover" />
+                  <img src={coverImg} width={350} alt="cover" />
                 </div>
               </Fade>
             </Row>
@@ -55,32 +55,6 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Love working with great team with Agile/Scrum methodology.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  <b>{paragraph4 || ''}</b>
-                </p>
-                <p className="about-wrapper__info-text">
-                  &nbsp;&nbsp;&nbsp;• ES5 + JavaScript, TypeScript, HTML5, CSS3, SCSS, jQuery
-                  <br />
-                  &nbsp;&nbsp;&nbsp;• React.js, Redux-Thunk, Redux-Saga, React Hooks, Context API,
-                  React Storybook
-                  <br />
-                  &nbsp;&nbsp;&nbsp;• NextJS, GatsbyJS
-                  <br />
-                  &nbsp;&nbsp;&nbsp;• Angular 2-9, NgRx, RxJS, Angular Material
-                  <br />
-                  &nbsp;&nbsp;&nbsp;• REST, GraphQL, Apollo
-                  <br />
-                  &nbsp;&nbsp;&nbsp;• Vue.js, VueX, Nuxt.js <br />
-                  &nbsp;&nbsp;&nbsp;• Ant Design, Semantic UI, UI Kit, Styled Component, Material,
-                  Bootstrap
-                </p>
-                <p className="about-wrapper__info-text">
-                  <b>- Back-end</b>
-                </p>
-                <p className="about-wrapper__info-text">
-                  &nbsp;&nbsp;&nbsp;• NodeJS, PHP, Python, Ruby On Rails
-                  <br />
                 </p>
                 <p className="about-wrapper__info-text">
                   I have strong debugging and troubleshooting skills that allow me to quickly
@@ -111,7 +85,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      View Resume
                     </a>
                   </span>
                 )}

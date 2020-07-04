@@ -26,7 +26,7 @@ const Header = () => {
     <section id="hero" className="jumbotron" style={{ backgroundImage: `url(${bgImage})` }}>
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <h1 className="hero-title">
+          <h1 className="hero-title" style={{ fontFamily: `'Montserrat', sans-serif` }}>
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Yegor Yanushkevich'}</span>
             <br />
@@ -35,9 +35,17 @@ const Header = () => {
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
-            <a className="cta-btn cta-btn--hero" href="#about">
-              {cta || 'Know more'}
-            </a>
+            <Link
+              activeClass="active"
+              to="about"
+              spy
+              smooth
+              offset={50}
+              duration={100}
+              style={{ cursor: 'pointer' }}
+            >
+              <a className="cta-btn cta-btn--hero">{cta || 'Know more'}</a>
+            </Link>
           </p>
         </Fade>
       </Container>

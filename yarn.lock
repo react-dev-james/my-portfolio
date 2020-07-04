@@ -11223,6 +11223,11 @@ react-side-effect@^1.1.0:
   dependencies:
     shallowequal "^1.0.1"
 
+react-skills@^1.27.0:
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/react-skills/-/react-skills-1.27.0.tgz#31c7aba179f0e833f9eb4e3634e9644bdd05bf17"
+  integrity sha512-kdHyAi7TaAjXU8fUyZf7BPNgGKGl2E1OHIZRMDvU344zxwj5+0Qe76YcYxAjjdD26PvmT+3uOLUfhvheLXJVzA==
+
 react-tilt@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/react-tilt/-/react-tilt-0.1.4.tgz#0ac1f33674a3fff6c617cf411002d7ecdd2ebcb1"

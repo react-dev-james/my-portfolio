@@ -14,6 +14,9 @@ module.exports = {
     'react/static-property-placement': 'off', // disable if necessary
     'react/jsx-props-no-spreading': 'off', // disable if necessary
     'react/require-default-props': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
+    'react/prop-types': 'off',
+    'jsx-a11y/control-has-associated-label': 'off',
   },
   parser: 'babel-eslint',
 };

@@ -16,7 +16,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Yegor Yanushkevich',
-  subtitle: 'I am a senior Software Engineer.',
+  subtitle: 'I am a Senior Software Engineer.',
   cta: '',
 };
 
@@ -28,7 +28,7 @@ export const aboutData = {
   paragraphTwo:
     'Specialized in web application development such as E-Commerce, Enterprise Application, SaaS Platform, SPA, Health Care System, CRM and Learning Management System.',
   paragraphThree: 'Love working with great team with Agile/Scrum methodology.',
-  paragraph4: ' - Front-End',
+  // paragraph4: ' - Front-End',
   resume: 'https://drive.google.com/file/d/1olrccn_MDTrxXdvVjzdsebaRCvN5d-Ro/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -38,9 +38,10 @@ export const projectsData = [
     id: '1',
     img: upworkImage,
     title: 'Upwork Experience',
-    info: 'I have 2 years of experience on upwork.',
-    info2: 'I completed 27 jobs, earned around $200k and worked 3999hrs on remote jobs.',
-    url: 'https://ibb.co/ZhvK2RG',
+    info: 'I have 2 years of experience on Upwork.',
+    info2: 'I completed 27 jobs, earned around $200k and worked 3999 hours on remote jobs.',
+    // url: 'https://ibb.co/ZhvK2RG',
+    url: 'https://imgur.com/a/MLh0o1l',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -58,7 +59,7 @@ export const projectsData = [
     img: elliotImg,
     title: 'Next generation E-Commerce system',
     info: 'Involved at development of next generation e-commerce system at Elliot, Inc.',
-    info2: 'Used React.js, TypeScript, GraphQL and Formik, Context API, React Hooks, UI Kit.',
+    info2: 'Used React.js, TypeScript, GraphQL, Formik, Context API, React Hooks, UI Kit.',
     url: 'https://elliot.store/',
     repo: '', // if no repo, the button will not show up
   },
@@ -74,7 +75,7 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: healthcorumImg,
-    title: 'Health Care System',
+    title: 'Health care system',
     info: 'Involved at development of Health Care Platform at HealthCorum.',
     info2: 'Used Python / Django, Angular, MySQL and D3.js.',
     url: 'http://healthcorum.com/',
@@ -112,11 +113,11 @@ export const footerData = {
     //   name: 'laptop',
     //   url: 'https://www.hiremotely.com/profile/Yegor-Y-full-stack-mobile-web-developer',
     // },
-    {
-      id: uuidv1(),
-      name: 'user',
-      url: 'https://www.guru.com/freelancers/yegor-yanushikevich',
-    },
+    // {
+    //   id: uuidv1(),
+    //   name: 'user',
+    //   url: 'https://www.guru.com/freelancers/yegor-yanushikevich',
+    // },
   ],
 };
 
